@@ -688,6 +688,10 @@ more padding on the right to avoid overlap
 	.c-input::placeholder {
 		color: var(--global-color-neutral-dark);
 	}
+
+	.c-input:hover {
+		--global-input-hover-borderColor: var(--global-color-neutral-x-dark);
+	}
 }
 
 /* option input for checkboxes and radio buttons */
@@ -858,6 +862,10 @@ more padding on the right to avoid overlap
 	.c-custom-option__fake-input {
 		--global-input-backgroundColor: var(--global-color-neutral-xxxx-dark);
 		--global-input-borderColor: var(--global-color-neutral-xxxx-dark);
+	}
+
+	.c-custom-option:hover {
+		--custom-option-borderColor: var(--global-color-neutral-x-dark);
 	}
 }
 
